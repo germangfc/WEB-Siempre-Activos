@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=yes">
+    <title>Página base</title>
+    <link rel="icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <script language="javascript" type="text/javascript" src="js/siempreActivos.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<header>
+    <div id="cabecera" class="header">
+        <img src="./img/escudoBoadilla.png">
+        <h1 class="dancing-script-medium">Siempre Activos</h1>
+        <!-- <h1>Siempre Activos</h1> -->
+    </div>
+
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Inicio</a>
+        <a href="#info">Información</a>
+        <a href="#saludo">Saludo</a>
+        <a href="#programa">Programa</a>
+        <a href="#contacto">Contacto</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</header>
+
+<body id="home">
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="./img/Siempre Activos_1.jpg" style="width:100%">
+            <div class="text">Siempre Activos 1</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./img/Siempre Activos_2.jpg" style="width:100%">
+            <div class="text">Siempre Activos 2</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="./img/Siempre Activos_3.jpg" style="width:100%">
+            <div class="text">Siempre Activos 3</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!-- Llamamos a mostrar las imágenes -->
+    <script>showSlides(slideIndex);</script>
+
+    <div id="info" class="actividades-section">
+        <div class="actividades-left">
+            <h3>LAS ACTIVIDADES SON GRATUITAS</h3>
+            <p>Pueden ser usuarios los vecinos que figuren inscritos en el padrón municipal mayores de 65 años,
+                pensionistas o jubilados totales o parciales mayores de 55 años y sus cónyuges de más de 55 años.
+            </p>
+            <h4>Fechas y lugares para nuevas inscripciones</h4>
+            <p>Horario de 10 a 14 h.</p>
+            <ul>
+                <li>Centro de Mayores de Gutiérrez Soto: del 4 al 8 de septiembre. C/ Gutiérrez Soto, 8, telf. 91
+                    343
+                    2090</li>
+                <li>Centro de Mayores María de Vera: del 11 al 15 de septiembre. C/ José Antonio, 42, telf. 91 634
+                    9300
+                    ext. 2460</li>
+            </ul>
+            <p>Más información:</p>
+            <p>En los teléfonos arriba indicados y en el mail activmayores@aytoboadilla.com</p>
+        </div>
+        <div class="actividades-right">
+            <h3>Nuevas actividades curso 2017/2018</h3>
+            <p>Pueden ser usuarios los vecinos que figuren inscritos en el padrón municipal mayores de 65 años,
+                pensionistas o jubilados totales o parciales mayores de 55 años y sus cónyuges de más de 55 años.
+            </p>
+            <ul>
+                <li>Nuevos cursos y grupos de conversación en inglés.</li>
+                <li>Ampliación de horarios de las actividades de yoga y taichi.</li>
+                <li>Nuevas actividades en las urbanizaciones históricas.</li>
+                <li>Escuela de Abuelos.</li>
+                <li>Visitas guiadas Madrid Cultural.</li>
+                <li>Taller de mejora de los hábitos de sueño.</li>
+                <li>Día de San Valentín.</li>
+                <li>Talleres: Decora la Navidad y Decora la Feria de Abril.</li>
+                <li>Curso de creación y edición de documentos de word.</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    </div>
+
+    <div id="saludo" class="saludoExt">
+        <h2>Saludo del Alcalde</h2>
+        <div class="saludo">
+            <p>Queridos vecinos:</p>
+            <p>Igual que vuestros nietos, iniciáis el curso con ganas de reencontraros con vuestros compañeros, con
+                mucha ilusión por aprender tras el descanso de las vacaciones y con nuevas expectativas sobre lo que
+                os
+                deparará el nuevo año. </p>
+            <p>En realidad lo que estáis haciendo es renovar vuestras vidas con actividades que os enriquecen y con
+                nuevos focos de interés que compartís con vuestros conocidos y amigos. </p>
+            <p>Es lo que ha sido llamado “el envejecimiento activo” que todos (médicos, terapeutas y psicólogos) os
+                recomiendan como garantía de salud física y psíquica: vivir más intensamente aprovechando cada
+                momento
+                para seguir mejorando y aprendiendo.</p>
+            <p>Nuestro lema “Siempre Activos” se apoya en este idea y por eso pido vuestra implicación en las
+                distintas
+                actividades de ocio, deportivas y formativas que os proponemos.</p>
+            <p>Junto a nuestra oferta habitual, fruto de vuestras peticiones este curso tenemos novedades como la
+                creación de nuevos grupos de conversación en inglés, la ampliación horaria de las actividades de
+                yoga y
+                taichi, talleres de decoración, visitas guiadas por Madrid, un taller para mejorar los hábitos de
+                sueño
+                o una Escuela de Abuelos, entre otras.</p>
+            <p>Todas las actividades son gratuitas y complementarias de las que organiza la Asociación de Mayores de
+                Boadilla a través de la subvención que anualmente les concedemos, tanto para ellas como para el
+                Abono
+                Transporte de los mayores.</p>
+            <p>Para concluir quiero solicitar especialmente la participación de todos aquellos que aún no están
+                inscritos. Os ánimo a hacerlo y os aseguro que no os arrepentiréis.</p>
+            <p>¡Mucho ánimo, y a por el nuevo curso!</p>
+            <p><b>D. Antonio González Terol <br>
+                    Alcalde de Boadilla del Monte</b> </p>
+        </div>
+    </div>
+
+    <div id="programa" class="tablas-section">
+        <h2>Programa de Actividades</h2>
+        <div class="tablas-contenido">
+            <div class="tabla-left">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>TALLERES</th>
+                            <th>DÍAS</th>
+                            <th>HORARIO</th>
+                            <th>CENTRO</th>
+                            <th>HORAS SEMANA</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>GIMNASIA AERÓBICA 1</td>
+                            <td>L/X</td>
+                            <td>9:00 - 10:00</td>
+                            <td>María de Vera</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>GIMNASIA AERÓBICA 2</td>
+                            <td>L/X</td>
+                            <td>10:00 - 11:00</td>
+                            <td>María de Vera</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>GIMNASIA MANTENIMIENTO 1</td>
+                            <td>L/X</td>
+                            <td>11:00 - 12:00</td>
+                            <td>C/ Gutiérrez Soto</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>GIMNASIA MANTENIMIENTO 2</td>
+                            <td>M/J</td>
+                            <td>11:00 - 12:00</td>
+                            <td>C/ Gutiérrez Soto</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>DINÁMICA OCUPACIONAL 1</td>
+                            <td>M/J</td>
+                            <td>12:00 - 13:00</td>
+                            <td>María de Vera</td>
+                            <td>2</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="tabla-right">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>TALLERES</th>
+                            <th>DÍAS</th>
+                            <th>HORARIO</th>
+                            <th>CENTRO</th>
+                            <th>HORAS SEMANA</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>GIMNASIA AERÓBICA 1</td>
+                            <td>L/X</td>
+                            <td>9:00 - 10:00</td>
+                            <td>María de Vera</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>GIMNASIA AERÓBICA 2</td>
+                            <td>L/X</td>
+                            <td>10:00 - 11:00</td>
+                            <td>María de Vera</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>GIMNASIA MANTENIMIENTO 1</td>
+                            <td>L/X</td>
+                            <td>11:00 - 12:00</td>
+                            <td>C/ Gutiérrez Soto</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>GIMNASIA MANTENIMIENTO 2</td>
+                            <td>M/J</td>
+                            <td>11:00 - 12:00</td>
+                            <td>C/ Gutiérrez Soto</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>DINÁMICA OCUPACIONAL 1</td>
+                            <td>M/J</td>
+                            <td>12:00 - 13:00</td>
+                            <td>María de Vera</td>
+                            <td>2</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="div_contenido" style="text-align: center; margin-top: 70px;">
+        <h2>From Earth to Space!</h2>
+        <div class="videoWrapper" style="max-width: 60%; margin: 0 auto;">
+            <iframe 
+                    src="https://www.youtube.com/embed/oe70Uhjc_F4?si=QhQQq36PTC1gyGC0" 
+                    title="From Earth to Space" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                </iframe>
+        </div>
+    </div>
+</body>
+
+<footer class="footer">
+    <div class="footer-contenido">
+        <h2 style="text-align: left;">Contacto</h2>
+        <form id="contacto" class="contacto-form">
+            <div class="contacto-left">
+                <label for="nombre">Nombre</label><br><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+                <br><br>
+                <label for="apellidos">Apellidos</label><br><br>
+                <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos">
+            </div>
+
+            <div class="contacto-right">
+                <label for="mensaje">Mensaje:</label><br><br>
+                <textarea id="mensaje" name="mensaje" placeholder="Consultas y sugerencias"></textarea>
+                <p style="text-align: left;">Contacta con nosotros</p>
+
+                <button type="submit" class="boton">Enviar</button>
+            </div>
+        </form>
+    </div>
+    <div class="footer-logo-texto">
+        <div class="footer-logo">
+            <img src="./img/escudoBoadilla.png" alt="Logo" style="max-width: 150px; height: auto;">
+        </div>
+        <div class="footer-texto">
+            <h4>Concejalía de Mayores</h4>
+            <p>Plaza de la Villa s/n</p>
+            <p>teléfono (91) 6324910</p>
+            <p>mayores@aytoboadilla.com</p>
+            </p>
+        </div>
+    </div>
+</footer>
+
+</html>
